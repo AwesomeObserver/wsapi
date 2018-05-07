@@ -1,7 +1,7 @@
 import * as IoRedis from 'ioredis';
-import { broker } from 'app/broker';
-import { logger } from 'app/logger';
-import { instanceId } from 'app/config';
+import { broker } from './broker';
+import { logger } from './logger';
+import { instanceId } from './config';
 
 export const setupRedis = () => {
 	return new IoRedis(process.env.REDIS_URL);

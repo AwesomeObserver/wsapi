@@ -404,10 +404,6 @@ deep-extend@^0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.5.1.tgz#b894a9dd90d3023fbf1c55a394fb858eb2066f1f"
 
-deepmerge@^2.0.1:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-2.1.0.tgz#511a54fff405fc346f0240bb270a3e9533a31102"
-
 define-property@^0.2.5:
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/define-property/-/define-property-0.2.5.tgz#c35b1ef918ec3c990f9a5bc57be04aacec5c8116"
@@ -1729,15 +1725,11 @@ strip-ansi@^4.0.0:
   dependencies:
     ansi-regex "^3.0.0"
 
-strip-bom@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/strip-bom/-/strip-bom-3.0.0.tgz#2334c18e9c759f7bdd56fdef7e9ae3d588e68ed3"
-
 strip-eof@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/strip-eof/-/strip-eof-1.0.0.tgz#bb43ff5598a6eb05d89b59fcd129c983313606bf"
 
-strip-json-comments@^2.0.1, strip-json-comments@~2.0.1:
+strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
 
@@ -1817,14 +1809,6 @@ ts-node@^6.0.2:
     mkdirp "^0.5.1"
     source-map-support "^0.5.3"
     yn "^2.0.0"
-
-tsconfig-paths@^2.7.3:
-  version "2.7.3"
-  resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-2.7.3.tgz#ef36ca628591fd49f37ee6b1a816ec4a3230c1d3"
-  dependencies:
-    deepmerge "^2.0.1"
-    strip-bom "^3.0.0"
-    strip-json-comments "^2.0.1"
 
 tslib@^1.8.0, tslib@^1.8.1:
   version "1.9.0"

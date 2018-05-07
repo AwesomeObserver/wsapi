@@ -1,7 +1,7 @@
-import { WSAPI } from 'app/server';
-import { instanceId } from 'app/config';
-import { setupService } from 'app/service';
-import { logger } from 'app/logger';
+import { WSAPI } from './server';
+import { instanceId } from './config';
+import { setupService } from './service';
+import { logger } from './logger';
 
 (async () => {
 	const wsAPI = new WSAPI();

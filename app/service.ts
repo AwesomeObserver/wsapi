@@ -1,6 +1,6 @@
 import { Service, Event, BaseSchema } from 'moleculer-decorators';
-import { broker } from 'app/broker';
-import { objFilter } from 'app/utils';
+import { broker } from './broker';
+import { objFilter } from './utils';
 
 export const setupService = (wsAPI, instanceId) => {
 	@Service({

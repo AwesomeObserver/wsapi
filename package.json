@@ -4,11 +4,11 @@
 	"description": "RavePro WSAPI",
 	"main": "index.js",
 	"scripts": {
-		"debug": "yarn build && node --inspect=0.0.0.0:9229 ./index.js",
+		"debug": "yarn build && node --inspect=0.0.0.0:9229 ./dist/index.js",
 		"dev": "nodemon",
 		"watch": "ts-node -r tsconfig-paths/register app/index",
 		"build": "tsc",
-		"start": "node ./index.js --max-old-space-size=1024"
+		"start": "node ./dist/index.js --max-old-space-size=1024"
 	},
 	"author": "Sygeman",
 	"license": "Apache-2.0",
@@ -19,7 +19,6 @@
 		"@types/ws": "^5.1.0",
 		"nodemon": "^1.17.4",
 		"ts-node": "^6.0.2",
-		"tsconfig-paths": "^2.7.3",
 		"tslint": "^5.10.0",
 		"typescript": "^2.8.3"
 	},

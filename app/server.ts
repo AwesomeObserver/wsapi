@@ -1,7 +1,7 @@
 import * as crypto from 'crypto';
 import * as ws from 'ws';
 import * as actions from './actions';
-import { logger } from 'app/logger';
+import { logger } from './logger';
 
 export class WSAPI {
 	public PORT: number;
