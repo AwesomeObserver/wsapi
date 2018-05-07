@@ -1,8 +1,9 @@
 import { ServiceBroker } from 'moleculer';
 import { logger } from './logger';
+import { natsUrl } from './config';
 
 export let broker = new ServiceBroker({
-	transporter: process.env.NATS_URL,
+	transporter: natsUrl,
 	logger,
 	logLevel: 'warn'
 });
