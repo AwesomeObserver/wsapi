@@ -6,7 +6,7 @@
 	"scripts": {
 		"debug": "yarn build && node --inspect=0.0.0.0:9229 ./dist/index.js",
 		"dev": "nodemon",
-		"watch": "ts-node -r tsconfig-paths/register app/index",
+		"watch": "ts-node app/index",
 		"build": "tsc",
 		"start": "node ./dist/index.js --max-old-space-size=1024"
 	},
